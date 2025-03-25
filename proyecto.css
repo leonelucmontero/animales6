@@ -1,0 +1,137 @@
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+
+
+nav {
+background-color: #b0bec5;
+padding-left: 2vw;
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+}
+
+.main-ul {
+display: flex;
+align-items: center;
+}
+
+li {
+list-style: none;
+cursor: pointer;
+padding: 1.5vw;
+transition: 0.3s ease;
+}
+
+li:hover {
+background-color: #212121;
+}
+
+.develop {
+position: relative;
+}
+
+.second-ul {
+display: none;
+position: absolute;
+margin-top: 1.5vw;
+}
+
+.develop:hover > .second-ul {
+display: block;
+}
+
+.second-ul > li {
+width: 190px;
+transform: translateX(-20px);
+border-bottom: solid 1px;
+text-align: center;
+background-color: #c0c0c0;
+}
+
+.second-ul > li:hover {
+
+background-color: #E8f8f8;
+}
+
+.develop:hover {
+display: block;
+}
+
+.third-ul {
+position: absolute;
+transform: translateX(100%);
+right: 0;
+top: 50%;
+display: none;
+background-color: #24252a;
+}
+
+.third-ul > li {
+padding: 1.5vw;
+border-bottom: solid 1px white;
+}
+
+.front:hover > .third-ul {
+display: block;
+}
+
+
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float: right;
+  margin-left: 20px;
+  border: 5px solid white;
+}
+
+}
+
+ul {
+    font-family: 'Arial', sans-serif; /* Tipo de letra llamativo */
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding-left: 0; /* Elimina el espaciado izquierdo */
+}
+
+ul li {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 18px; /* Tamaño de fuente más grande */
+    margin-bottom: 10px; /* Espacio entre los ítems */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+ul li {
+    color: white; }
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px; /* Ajusta este valor según el espacio que quieras */
+}
+
+
+
+p {
+    color: white;           
+    font-family: Arial, sans-serif;}
+h1 {
+    text-align: center;
+    color: #ffff99;           
+    font-family: Arial, sans-serif;}
+h2 {
+    color: #66ffff;           
+    font-family: Arial, sans-serif;}
+body {
+    background-color: #212121; 
+}
+
+
+
+
